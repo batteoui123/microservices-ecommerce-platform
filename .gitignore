@@ -1,0 +1,23 @@
+# --- GLOBAL IGNORE FOR THE MONOREPO ---
+
+# Environment files (never push secrets)
+.env
+.env.local
+**/.env
+**/.env.local
+
+# Docker / DevOps
+ops/pgdata/
+ops/volumes/
+**/logs/
+*.log
+
+# IDE / System
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary
+tmp/
+*.tmp
